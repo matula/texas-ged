@@ -1,0 +1,185 @@
+{
+  "subjectColors": {
+    "Math": { "bg": "#E8F0FE", "accent": "#1A56DB", "icon": "\u2211" },
+    "Language Arts": { "bg": "#FEF3E2", "accent": "#C2650A", "icon": "\u270E" },
+    "Science": { "bg": "#E6F9EF", "accent": "#157A3B", "icon": "\u2697" },
+    "Social Studies": { "bg": "#F3E8FE", "accent": "#7C3AED", "icon": "\u2696" }
+  },
+  "questions": [
+    {
+      "id": 1, "subject": "Math", "topic": "Algebra",
+      "question": "Solve for x:  3x + 7 = 22",
+      "options": ["x = 3", "x = 5", "x = 7", "x = 15"],
+      "answer": 1,
+      "explanation": "Subtract 7 from both sides: 3x = 15. Divide both sides by 3: x = 5."
+    },
+    {
+      "id": 2, "subject": "Math", "topic": "Geometry",
+      "question": "A rectangle has a length of 12 cm and a width of 5 cm. What is its area?",
+      "options": ["17 cm\u00b2", "34 cm\u00b2", "60 cm\u00b2", "120 cm\u00b2"],
+      "answer": 2,
+      "explanation": "Area = length \u00d7 width = 12 \u00d7 5 = 60 cm\u00b2."
+    },
+    {
+      "id": 3, "subject": "Math", "topic": "Percentages",
+      "question": "A jacket originally costs $80. It is on sale for 25% off. What is the sale price?",
+      "options": ["$20", "$55", "$60", "$65"],
+      "answer": 2,
+      "explanation": "25% of $80 = $20. Sale price = $80 \u2212 $20 = $60."
+    },
+    {
+      "id": 4, "subject": "Math", "topic": "Data Analysis",
+      "question": "The ages of 5 students are: 16, 18, 17, 19, 15. What is the mean (average) age?",
+      "options": ["16", "17", "18", "19"],
+      "answer": 1,
+      "explanation": "Mean = (16 + 18 + 17 + 19 + 15) \u00f7 5 = 85 \u00f7 5 = 17."
+    },
+    {
+      "id": 5, "subject": "Math", "topic": "Fractions",
+      "question": "What is \u00be + \u00bd?",
+      "options": ["1", "1\u00bc", "1\u00bd", "\u2075\u2044\u2086"],
+      "answer": 1,
+      "explanation": "\u00be + \u00bd = \u00be + \u00b2\u2044\u2084 = \u2075\u2044\u2084 = 1\u00bc."
+    },
+    {
+      "id": 6, "subject": "Language Arts", "topic": "Grammar",
+      "question": "Which sentence is grammatically correct?",
+      "options": [
+        "Him and me went to the store.",
+        "He and I went to the store.",
+        "Me and him went to the store.",
+        "Him and I went to the store."
+      ],
+      "answer": 1,
+      "explanation": "'He and I' are subject pronouns, which is correct since they are the subjects of the sentence."
+    },
+    {
+      "id": 7, "subject": "Language Arts", "topic": "Reading Comprehension",
+      "question": "\"Despite the heavy rain, Maria decided to walk to school because she enjoyed the sound of raindrops.\" What motivated Maria to walk?",
+      "options": [
+        "She didn't have an umbrella.",
+        "She liked hearing the rain.",
+        "She was late for school.",
+        "She wanted exercise."
+      ],
+      "answer": 1,
+      "explanation": "The passage states she \"enjoyed the sound of raindrops,\" which was her motivation."
+    },
+    {
+      "id": 8, "subject": "Language Arts", "topic": "Vocabulary",
+      "question": "What does the word \"reluctant\" most likely mean in this sentence? \"She was reluctant to speak in front of the large crowd.\"",
+      "options": ["Eager", "Hesitant", "Excited", "Prepared"],
+      "answer": 1,
+      "explanation": "\"Reluctant\" means unwilling or hesitant to do something."
+    },
+    {
+      "id": 9, "subject": "Language Arts", "topic": "Writing",
+      "question": "Which transition word best completes this sentence? \"The experiment failed; ______, the scientists learned valuable lessons.\"",
+      "options": ["therefore", "meanwhile", "nevertheless", "similarly"],
+      "answer": 2,
+      "explanation": "\"Nevertheless\" signals a contrast \u2014 the experiment failed, but something positive still came from it."
+    },
+    {
+      "id": 10, "subject": "Language Arts", "topic": "Punctuation",
+      "question": "Which sentence uses an apostrophe correctly?",
+      "options": [
+        "The dog wagged it's tail.",
+        "The dogs' owner walked away. (one dog)",
+        "The children's toys were scattered.",
+        "Its' a beautiful day."
+      ],
+      "answer": 2,
+      "explanation": "\"Children's\" correctly shows possession for the irregular plural noun \"children.\""
+    },
+    {
+      "id": 11, "subject": "Science", "topic": "Biology",
+      "question": "What is the primary function of mitochondria in a cell?",
+      "options": [
+        "Storing genetic information",
+        "Producing energy (ATP)",
+        "Building proteins",
+        "Removing waste"
+      ],
+      "answer": 1,
+      "explanation": "Mitochondria are known as the \"powerhouse of the cell\" because they produce ATP, the cell's main energy source."
+    },
+    {
+      "id": 12, "subject": "Science", "topic": "Earth Science",
+      "question": "Which layer of Earth's atmosphere do we live in?",
+      "options": ["Stratosphere", "Mesosphere", "Troposphere", "Thermosphere"],
+      "answer": 2,
+      "explanation": "The troposphere is the lowest layer of the atmosphere, where weather occurs and where we live."
+    },
+    {
+      "id": 13, "subject": "Science", "topic": "Chemistry",
+      "question": "What is the chemical formula for water?",
+      "options": ["CO\u2082", "H\u2082O", "NaCl", "O\u2082"],
+      "answer": 1,
+      "explanation": "Water is made of 2 hydrogen atoms and 1 oxygen atom, giving it the formula H\u2082O."
+    },
+    {
+      "id": 14, "subject": "Science", "topic": "Physics",
+      "question": "An object at rest will stay at rest unless acted on by an external force. This describes which of Newton's Laws?",
+      "options": ["First Law", "Second Law", "Third Law", "Law of Gravity"],
+      "answer": 0,
+      "explanation": "Newton's First Law of Motion (the Law of Inertia) states that objects resist changes in their state of motion."
+    },
+    {
+      "id": 15, "subject": "Science", "topic": "Scientific Method",
+      "question": "In a scientific experiment, what is the variable that the researcher changes on purpose?",
+      "options": [
+        "Dependent variable",
+        "Control variable",
+        "Independent variable",
+        "Constant"
+      ],
+      "answer": 2,
+      "explanation": "The independent variable is the one the researcher deliberately changes to test its effect."
+    },
+    {
+      "id": 16, "subject": "Social Studies", "topic": "U.S. History",
+      "question": "The Declaration of Independence was adopted in what year?",
+      "options": ["1765", "1776", "1787", "1791"],
+      "answer": 1,
+      "explanation": "The Declaration of Independence was adopted by the Continental Congress on July 4, 1776."
+    },
+    {
+      "id": 17, "subject": "Social Studies", "topic": "Civics & Government",
+      "question": "How many branches does the U.S. federal government have?",
+      "options": ["2", "3", "4", "5"],
+      "answer": 1,
+      "explanation": "The U.S. government has 3 branches: Legislative (Congress), Executive (President), and Judicial (Courts)."
+    },
+    {
+      "id": 18, "subject": "Social Studies", "topic": "Economics",
+      "question": "When the demand for a product increases but the supply stays the same, what generally happens to the price?",
+      "options": [
+        "Price decreases",
+        "Price stays the same",
+        "Price increases",
+        "Price becomes unpredictable"
+      ],
+      "answer": 2,
+      "explanation": "According to the law of supply and demand, higher demand with the same supply drives prices up."
+    },
+    {
+      "id": 19, "subject": "Social Studies", "topic": "Geography",
+      "question": "Which river forms much of the border between Texas and Mexico?",
+      "options": ["Colorado River", "Mississippi River", "Rio Grande", "Brazos River"],
+      "answer": 2,
+      "explanation": "The Rio Grande (R\u00edo Bravo) forms the natural border between Texas and Mexico."
+    },
+    {
+      "id": 20, "subject": "Social Studies", "topic": "U.S. Constitution",
+      "question": "The First Amendment to the U.S. Constitution protects which of the following rights?",
+      "options": [
+        "The right to bear arms",
+        "Freedom of speech",
+        "The right to a fair trial",
+        "Protection from unreasonable searches"
+      ],
+      "answer": 1,
+      "explanation": "The First Amendment protects freedom of speech, religion, press, assembly, and petition."
+    }
+  ]
+}

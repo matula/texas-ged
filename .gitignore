@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# LLM / AI
+CLAUDE.md
+PLAN.md
+.claude/
+.cursor/
+.cursorrules
+.github/copilot-instructions.md

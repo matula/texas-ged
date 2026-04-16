@@ -1,0 +1,8 @@
+{
+  "title": "GED Practice Exam",
+  "subtitle": "Texas",
+  "questionsPerSubject": 5,
+  "passingPercent": 60,
+  "timeLimitMinutes": 0,
+  "subjects": ["Math", "Language Arts", "Science", "Social Studies"]
+}
