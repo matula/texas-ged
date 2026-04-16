@@ -6,9 +6,9 @@
     let subjectColors = {};
     let questions = [];
     let currentIndex = 0;
-    let selected = {};       // questionId -> optionIndex
+    let selected = {};       // arrayIndex -> optionIndex
     let submitted = false;
-    let showExplanation = {}; // questionId -> bool
+    let showExplanation = {}; // arrayIndex -> bool
     let startTime = Date.now();
     let timerInterval = null;
 
@@ -96,7 +96,7 @@
 
     // --- Scoring ---
     function getScore() {
-        return questions.reduce((s, q) => s + (selected[q.id] === q.answer ? 1 : 0), 0);
+        return questions.reduce((s, q, i) => s + (selected[i] === q.answer ? 1 : 0), 0);
     }
 
     // --- Render ---
@@ -140,10 +140,10 @@
         html += `<div style="display:grid;grid-template-columns:repeat(${navCols},1fr);gap:4px;margin:10px 0 22px">`;
         questions.forEach((qq, i) => {
             const c = subjectColors[qq.subject] || { bg: "#f3f3f3", accent: "#666" };
-            const isAnswered = selected[qq.id] !== undefined;
+            const isAnswered = selected[i] !== undefined;
             const isCurrent = i === currentIndex;
-            const isCorrect = submitted && selected[qq.id] === qq.answer;
-            const isWrong = submitted && isAnswered && selected[qq.id] !== qq.answer;
+            const isCorrect = submitted && selected[i] === qq.answer;
+            const isWrong = submitted && isAnswered && selected[i] !== qq.answer;
             const isMissed = submitted && !isAnswered;
 
             let bg, color, border;
@@ -188,7 +188,7 @@
                 <div style="display:flex;flex-direction:column;gap:10px">`;
 
         q.options.forEach((opt, oi) => {
-            const isSelected = selected[q.id] === oi;
+            const isSelected = selected[currentIndex] === oi;
             const isCorrectAnswer = oi === q.answer;
             const showRight = submitted && isCorrectAnswer;
             const showWrong = submitted && isSelected && !isCorrectAnswer;
@@ -219,10 +219,10 @@
 
         // Explanation toggle
         if (submitted) {
-            const expVisible = showExplanation[q.id];
+            const expVisible = showExplanation[currentIndex];
             html += `
                 <div style="margin-top:14px">
-                    <button data-explain="${q.id}" style="background:none;border:none;cursor:pointer;color:${sc.accent};font-weight:700;font-size:13px;font-family:inherit;padding:4px 0">
+                    <button data-explain="${currentIndex}" style="background:none;border:none;cursor:pointer;color:${sc.accent};font-weight:700;font-size:13px;font-family:inherit;padding:4px 0">
                         ${expVisible ? "Hide Explanation \u25B2" : "Show Explanation \u25BC"}
                     </button>`;
             if (expVisible) {
@@ -269,7 +269,7 @@
             render();
         } else if (btn.dataset.option !== undefined && !submitted) {
             const q = questions[currentIndex];
-            selected[q.id] = parseInt(btn.dataset.option, 10);
+            selected[currentIndex] = parseInt(btn.dataset.option, 10);
             render();
         } else if (btn.dataset.prev !== undefined) {
             if (currentIndex > 0) { currentIndex--; render(); }

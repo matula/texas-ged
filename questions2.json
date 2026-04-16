@@ -1,0 +1,175 @@
+{
+  "subjectColors": {
+    "Math": { "bg": "#E8F0FE", "accent": "#1A56DB", "icon": "\u2211" },
+    "Language Arts": { "bg": "#FEF3E2", "accent": "#C2650A", "icon": "\u270E" },
+    "Science": { "bg": "#E6F9EF", "accent": "#157A3B", "icon": "\u2697" },
+    "Social Studies": { "bg": "#F3E8FE", "accent": "#7C3AED", "icon": "\u2696" }
+  },
+  "questions": [
+    {
+      "subject": "Math", "topic": "Algebra",
+      "question": "Solve for y:  2y \u2212 4 = 10",
+      "options": ["y = 3", "y = 5", "y = 7", "y = 14"],
+      "answer": 2,
+      "explanation": "Add 4 to both sides: 2y = 14. Divide both sides by 2: y = 7."
+    },
+    {
+      "subject": "Math", "topic": "Geometry",
+      "question": "What is the area of a triangle with a base of 10 cm and a height of 6 cm?",
+      "options": ["16 cm\u00b2", "30 cm\u00b2", "60 cm\u00b2", "36 cm\u00b2"],
+      "answer": 1,
+      "explanation": "Area = \u00bd \u00d7 base \u00d7 height = \u00bd \u00d7 10 \u00d7 6 = 30 cm\u00b2."
+    },
+    {
+      "subject": "Math", "topic": "Percentages",
+      "question": "A restaurant bill is $50. You want to leave a 20% tip. How much is the tip?",
+      "options": ["$5", "$8", "$10", "$15"],
+      "answer": 2,
+      "explanation": "20% of $50 = 0.20 \u00d7 50 = $10."
+    },
+    {
+      "subject": "Math", "topic": "Data Analysis",
+      "question": "A student scored 70, 85, 90, 80, and 75 on five tests. What is the median score?",
+      "options": ["75", "80", "85", "90"],
+      "answer": 1,
+      "explanation": "Arrange in order: 70, 75, 80, 85, 90. The middle value is 80."
+    },
+    {
+      "subject": "Math", "topic": "Ratios",
+      "question": "A recipe calls for 2 cups of flour for every 3 cups of sugar. If you use 6 cups of sugar, how many cups of flour do you need?",
+      "options": ["2", "3", "4", "6"],
+      "answer": 2,
+      "explanation": "The ratio is 2:3. If sugar doubles to 6, flour doubles to 4. (2/3 = x/6 \u2192 x = 4.)"
+    },
+    {
+      "subject": "Language Arts", "topic": "Grammar",
+      "question": "Which sentence uses the correct form of \"there/their/they're\"?",
+      "options": [
+        "Their going to the park after school.",
+        "The students left there books in the classroom.",
+        "They're planning a surprise party for Friday.",
+        "Please put the boxes over they're."
+      ],
+      "answer": 2,
+      "explanation": "\"They're\" is a contraction of \"they are,\" which is correct here: \"They are planning a surprise party.\""
+    },
+    {
+      "subject": "Language Arts", "topic": "Reading Comprehension",
+      "question": "\"The factory closed in 2005, leaving 300 workers unemployed. Many families moved away, and local shops began to shut down.\" What is the main idea?",
+      "options": [
+        "The factory was very old.",
+        "The factory closing hurt the whole community.",
+        "The workers found new jobs quickly.",
+        "Local shops were already struggling."
+      ],
+      "answer": 1,
+      "explanation": "The passage describes a chain reaction: factory closure led to unemployment, population loss, and business closures \u2014 showing community-wide impact."
+    },
+    {
+      "subject": "Language Arts", "topic": "Vocabulary",
+      "question": "What does \"abundant\" mean in this sentence? \"The region has an abundant supply of fresh water.\"",
+      "options": ["Limited", "Plentiful", "Polluted", "Underground"],
+      "answer": 1,
+      "explanation": "\"Abundant\" means existing in large quantities; more than enough."
+    },
+    {
+      "subject": "Language Arts", "topic": "Writing",
+      "question": "Which sentence is a run-on that needs to be corrected?",
+      "options": [
+        "I wanted to go for a walk, but it started raining.",
+        "She studied hard for the test; she earned an A.",
+        "He missed the bus he had to walk to school.",
+        "Although it was cold, they still went swimming."
+      ],
+      "answer": 2,
+      "explanation": "\"He missed the bus he had to walk to school\" joins two independent clauses with no punctuation or conjunction, making it a run-on sentence."
+    },
+    {
+      "subject": "Language Arts", "topic": "Punctuation",
+      "question": "Which sentence uses a semicolon correctly?",
+      "options": [
+        "I like apples; and oranges.",
+        "She went to the store; she bought milk.",
+        "The dog; barked loudly at the mailman.",
+        "We arrived early; but left late."
+      ],
+      "answer": 1,
+      "explanation": "A semicolon joins two related independent clauses without a conjunction. \"She went to the store\" and \"she bought milk\" are both complete sentences."
+    },
+    {
+      "subject": "Science", "topic": "Biology",
+      "question": "What is the basic unit of life?",
+      "options": ["Atom", "Molecule", "Cell", "Organ"],
+      "answer": 2,
+      "explanation": "The cell is considered the basic structural and functional unit of all living organisms."
+    },
+    {
+      "subject": "Science", "topic": "Earth Science",
+      "question": "What type of rock is formed when melted rock (magma or lava) cools and hardens?",
+      "options": ["Sedimentary", "Metamorphic", "Igneous", "Fossil"],
+      "answer": 2,
+      "explanation": "Igneous rocks form from the cooling and solidification of magma (underground) or lava (on the surface)."
+    },
+    {
+      "subject": "Science", "topic": "Chemistry",
+      "question": "What is the pH of pure water?",
+      "options": ["0", "5", "7", "14"],
+      "answer": 2,
+      "explanation": "Pure water has a neutral pH of 7, right in the middle of the 0\u201314 pH scale."
+    },
+    {
+      "subject": "Science", "topic": "Physics",
+      "question": "What unit is used to measure force?",
+      "options": ["Watt", "Joule", "Newton", "Volt"],
+      "answer": 2,
+      "explanation": "The Newton (N) is the SI unit of force, named after Sir Isaac Newton."
+    },
+    {
+      "subject": "Science", "topic": "Ecology",
+      "question": "In a food chain, what role do plants play?",
+      "options": ["Decomposers", "Producers", "Primary consumers", "Secondary consumers"],
+      "answer": 1,
+      "explanation": "Plants are producers because they make their own food through photosynthesis, forming the base of the food chain."
+    },
+    {
+      "subject": "Social Studies", "topic": "U.S. History",
+      "question": "Which amendment to the U.S. Constitution abolished slavery?",
+      "options": ["12th Amendment", "13th Amendment", "14th Amendment", "15th Amendment"],
+      "answer": 1,
+      "explanation": "The 13th Amendment, ratified in 1865, abolished slavery and involuntary servitude in the United States."
+    },
+    {
+      "subject": "Social Studies", "topic": "Civics & Government",
+      "question": "What is the minimum age to serve as President of the United States?",
+      "options": ["25", "30", "35", "40"],
+      "answer": 2,
+      "explanation": "Article II of the Constitution requires the President to be at least 35 years old."
+    },
+    {
+      "subject": "Social Studies", "topic": "Economics",
+      "question": "What is inflation?",
+      "options": [
+        "A decrease in the money supply",
+        "A general increase in prices over time",
+        "A drop in unemployment rates",
+        "An increase in exports"
+      ],
+      "answer": 1,
+      "explanation": "Inflation is the rate at which the general level of prices for goods and services rises, reducing purchasing power."
+    },
+    {
+      "subject": "Social Studies", "topic": "Geography",
+      "question": "Which continent has the most countries?",
+      "options": ["Asia", "Europe", "Africa", "South America"],
+      "answer": 2,
+      "explanation": "Africa has 54 recognized countries, more than any other continent."
+    },
+    {
+      "subject": "Social Studies", "topic": "U.S. Constitution",
+      "question": "How many total amendments does the U.S. Constitution have?",
+      "options": ["10", "21", "27", "33"],
+      "answer": 2,
+      "explanation": "The U.S. Constitution has 27 amendments. The first 10 are known as the Bill of Rights."
+    }
+  ]
+}
