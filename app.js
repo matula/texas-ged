@@ -253,9 +253,6 @@
             <button data-next style="padding:10px 20px;border-radius:8px;border:2px solid #ddd;background:#fff;font-weight:700;font-size:14px;cursor:${nextDisabled ? "default" : "pointer"};opacity:${nextDisabled ? 0.4 : 1};font-family:inherit" ${nextDisabled ? "disabled" : ""}>Next \u2192</button>
         </div>`;
 
-        // Disclaimer
-        html += `<p style="text-align:center;font-size:11px;color:#999;margin-top:24px;line-height:1.5">This is an unofficial practice test for study purposes only. The actual GED\u00ae test is administered by GED Testing Service LLC.</p>`;
-
         app.innerHTML = html;
     }
 
